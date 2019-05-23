@@ -1,14 +1,14 @@
 {
   "name": "@starterboost/commands",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "@starterboost/project-scripts": "starterboost/project-scripts",
     "mocha": "^6.1.4"
   },
-  "scripts" : {
-    "test" : "mocha tests --watch",
-    "release" : "project-release"
+  "scripts": {
+    "test": "mocha tests --watch",
+    "release": "project-release"
   }
 }
